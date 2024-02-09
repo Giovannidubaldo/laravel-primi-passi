@@ -26,7 +26,17 @@
         </div>
     </header>
 
-
+    {{-- main --}}
+    <main class="mt-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Benvenuto utente!</h2>
+                <p class="text-center">Questa è l'homepage del sito. Clicca su un link del menu per scoprire le altre
+                    pagine!
+                </p>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
