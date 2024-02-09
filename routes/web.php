@@ -14,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $message = 'Hello world!';
-    return view('home', compact('message'));
-});
+    $title = 'My Laravel App';
+    return view('home', compact('title'));
+})->name('homepage');

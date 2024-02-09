@@ -11,7 +11,19 @@
 </head>
 
 <body>
-    <h1>{{ $message }}</h1>
+    <header class="p-3 bg-success text-white">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1>{{ $title }}</h1>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="" class="text-white">Info</a></li>
+                        <li><a href="" class="text-white ms-2">Contatti</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
