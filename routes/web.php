@@ -22,3 +22,11 @@ Route::get('/info', function () {
     $title = 'My Laravel App';
     return view('info', compact('title'));
 })->name('info');
+
+Route::get('/contatti', function () {
+    $title = 'My Laravel App';
+    $contacts = [
+        'Numero di telefono:', 'Email:', 'Indirizzo:', 'Città:'
+    ];
+    return view('contatti', compact('title', 'contacts'));
+})->name('contatti');

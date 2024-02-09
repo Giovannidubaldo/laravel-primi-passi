@@ -18,8 +18,8 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h1>{{ $title }}</h1>
                     <ul class="list-unstyled d-flex">
-                        <li><a href="{{ route('info') }}" class="text-white">Info</a></li>
-                        <li><a href="{{ route('contatti') }}" class="text-white ms-2">Contatti</a></li>
+                        <li><a href="{{ route('homepage') }}" class="text-white">Torna all'Homepage</a></li>
+                        <li><a href="{{ route('info') }}" class="text-white ms-2">Info</a></li>
                     </ul>
                 </div>
             </div>
@@ -30,10 +30,12 @@
     <main class="my-5">
         <div class="container">
             <div class="row">
-                <h2 class="text-center">Benvenuto utente!</h2>
-                <p class="text-center">Questa è l'homepage del sito. Clicca su un link del menu per scoprire le altre
-                    pagine!
-                </p>
+                <h2>I nostri contatti</h2>
+                <ul class="list-unstyled">
+                    @foreach ($contacts as $contact)
+                        <li>{{ $contact }}</li>
+                    @endforeach
+                </ul>
             </div>
         </div>
     </main>
