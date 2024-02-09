@@ -30,7 +30,15 @@
     <main class="my-5">
         <div class="container">
             <div class="row">
-
+                <h2>Info:</h2>
+                <p>
+                    Questa piccola struttura è composta da 3 pagine che l'utento può vedere: <br>
+                    Nella principale troviamo l'homepage del sito composto da un header contenente il titolo, e da un
+                    menu a due voci.
+                    Queste voci rappresentano dei link che, una volta cliccati, portano l'utente alla pagina desiderata.
+                    <br>
+                    Per mostrare una pagina o l'altra, l'applicazione sfrutta le "routes" di Laravel.
+                </p>
             </div>
         </div>
     </main>
