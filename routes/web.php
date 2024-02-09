@@ -17,3 +17,8 @@ Route::get('/', function () {
     $title = 'My Laravel App';
     return view('home', compact('title'));
 })->name('homepage');
+
+Route::get('/info', function () {
+    $title = 'My Laravel App';
+    return view('info', compact('title'));
+})->name('info');
